@@ -7,6 +7,6 @@ namespace Rockstar.ViewModels.Review
     {
         public List<Models.Review> Reviews { get; set; }
         public Models.Review NewReview { get; set; }
-        public List<Category> Categories { get; set; }
+        public List<Models.Category> Categories { get; set; }
     }
 }

@@ -10,8 +10,8 @@ namespace Rockstar.ViewModels.Review
     {
         public int StarsTechniques { get; set; }
         public int StarsInnovation { get; set; }
-        public List<Category> Categories { get; set; }
-        public Category Category { get; set; }
+        public List<Models.Category> Categories { get; set; }
+        public Models.Category Category { get; set; }
         public Models.Review Review { get; set; }
     }
 }
