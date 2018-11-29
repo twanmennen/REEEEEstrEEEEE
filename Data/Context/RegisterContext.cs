@@ -25,6 +25,29 @@ namespace Data.Context
             }
         }
 
+        public void RegisterCompany(Company company)
+        {
+            string query = "INSERT INTO Company(Name, Email, Phonenumber, Location, Employees, Link, Info, Image)" +
+                           "VALUES(@Name, @Email, @Phone, @Location, @Link, @Info, @Image)";
+
+            using (var conn = new SqlConnection(ConnectionString))
+            {
+                using (var cmd = new SqlCommand(query, conn))
+                {
+                    conn.Open();
+                    cmd.Parameters.AddWithValue("@Name", company.Name);
+                    cmd.Parameters.AddWithValue("@Email", company.Email);
+                    cmd.Parameters.AddWithValue("@Phone", company.TelephoneNr);
+                    cmd.Parameters.AddWithValue("@Location", company.Location);
+                    cmd.Parameters.AddWithValue("@Link", company.Link);
+                    cmd.Parameters.AddWithValue("@Info", company.Info);
+                    //cmd.Parameters.AddWithValue("@Image", company.Image.FileName);
+
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
+
         public void FirstTimeLogIn(Account dataForUser)
         {
             string query = $"UPDATE [User] SET Phone = @Phone, Location = @Location, Gender = @Gender, HasLoggedIn = 'true' WHERE Id = @Id";

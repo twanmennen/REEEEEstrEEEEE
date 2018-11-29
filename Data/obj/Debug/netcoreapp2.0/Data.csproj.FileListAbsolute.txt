@@ -21,3 +21,15 @@ D:\HBO ICT\A S2 Poging 2\Proftaak\Code\Rockstar\anaal\Rockstar\Data\obj\Debug\ne
 D:\HBO ICT\A S2 Poging 2\Proftaak\Code\Rockstar\anaal\Rockstar\Data\obj\Debug\netcoreapp2.0\Data.csproj.CopyComplete
 D:\HBO ICT\A S2 Poging 2\Proftaak\Code\Rockstar\anaal\Rockstar\Data\obj\Debug\netcoreapp2.0\Data.dll
 D:\HBO ICT\A S2 Poging 2\Proftaak\Code\Rockstar\anaal\Rockstar\Data\obj\Debug\netcoreapp2.0\Data.pdb
+C:\Users\Youri\Source\Repos\twanmennen\REEEEEstrEEEEE\Data\bin\Debug\netcoreapp2.0\Data.deps.json
+C:\Users\Youri\Source\Repos\twanmennen\REEEEEstrEEEEE\Data\bin\Debug\netcoreapp2.0\Data.dll
+C:\Users\Youri\Source\Repos\twanmennen\REEEEEstrEEEEE\Data\bin\Debug\netcoreapp2.0\Data.pdb
+C:\Users\Youri\Source\Repos\twanmennen\REEEEEstrEEEEE\Data\bin\Debug\netcoreapp2.0\Models.dll
+C:\Users\Youri\Source\Repos\twanmennen\REEEEEstrEEEEE\Data\bin\Debug\netcoreapp2.0\Models.pdb
+C:\Users\Youri\Source\Repos\twanmennen\REEEEEstrEEEEE\Data\obj\Debug\netcoreapp2.0\Data.csprojResolveAssemblyReference.cache
+C:\Users\Youri\Source\Repos\twanmennen\REEEEEstrEEEEE\Data\obj\Debug\netcoreapp2.0\Data.csproj.CoreCompileInputs.cache
+C:\Users\Youri\Source\Repos\twanmennen\REEEEEstrEEEEE\Data\obj\Debug\netcoreapp2.0\Data.AssemblyInfoInputs.cache
+C:\Users\Youri\Source\Repos\twanmennen\REEEEEstrEEEEE\Data\obj\Debug\netcoreapp2.0\Data.AssemblyInfo.cs
+C:\Users\Youri\Source\Repos\twanmennen\REEEEEstrEEEEE\Data\obj\Debug\netcoreapp2.0\Data.csproj.CopyComplete
+C:\Users\Youri\Source\Repos\twanmennen\REEEEEstrEEEEE\Data\obj\Debug\netcoreapp2.0\Data.dll
+C:\Users\Youri\Source\Repos\twanmennen\REEEEEstrEEEEE\Data\obj\Debug\netcoreapp2.0\Data.pdb

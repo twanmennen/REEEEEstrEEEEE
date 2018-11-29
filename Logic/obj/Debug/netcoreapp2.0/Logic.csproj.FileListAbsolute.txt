@@ -25,3 +25,17 @@ D:\HBO ICT\A S2 Poging 2\Proftaak\Code\Rockstar\anaal\Rockstar\Logic\obj\Debug\n
 D:\HBO ICT\A S2 Poging 2\Proftaak\Code\Rockstar\anaal\Rockstar\Logic\obj\Debug\netcoreapp2.0\Logic.csproj.CopyComplete
 D:\HBO ICT\A S2 Poging 2\Proftaak\Code\Rockstar\anaal\Rockstar\Logic\obj\Debug\netcoreapp2.0\Logic.dll
 D:\HBO ICT\A S2 Poging 2\Proftaak\Code\Rockstar\anaal\Rockstar\Logic\obj\Debug\netcoreapp2.0\Logic.pdb
+C:\Users\Youri\Source\Repos\twanmennen\REEEEEstrEEEEE\Logic\bin\Debug\netcoreapp2.0\Logic.deps.json
+C:\Users\Youri\Source\Repos\twanmennen\REEEEEstrEEEEE\Logic\bin\Debug\netcoreapp2.0\Logic.dll
+C:\Users\Youri\Source\Repos\twanmennen\REEEEEstrEEEEE\Logic\bin\Debug\netcoreapp2.0\Logic.pdb
+C:\Users\Youri\Source\Repos\twanmennen\REEEEEstrEEEEE\Logic\bin\Debug\netcoreapp2.0\Data.dll
+C:\Users\Youri\Source\Repos\twanmennen\REEEEEstrEEEEE\Logic\bin\Debug\netcoreapp2.0\Models.dll
+C:\Users\Youri\Source\Repos\twanmennen\REEEEEstrEEEEE\Logic\bin\Debug\netcoreapp2.0\Data.pdb
+C:\Users\Youri\Source\Repos\twanmennen\REEEEEstrEEEEE\Logic\bin\Debug\netcoreapp2.0\Models.pdb
+C:\Users\Youri\Source\Repos\twanmennen\REEEEEstrEEEEE\Logic\obj\Debug\netcoreapp2.0\Logic.csprojResolveAssemblyReference.cache
+C:\Users\Youri\Source\Repos\twanmennen\REEEEEstrEEEEE\Logic\obj\Debug\netcoreapp2.0\Logic.csproj.CoreCompileInputs.cache
+C:\Users\Youri\Source\Repos\twanmennen\REEEEEstrEEEEE\Logic\obj\Debug\netcoreapp2.0\Logic.AssemblyInfoInputs.cache
+C:\Users\Youri\Source\Repos\twanmennen\REEEEEstrEEEEE\Logic\obj\Debug\netcoreapp2.0\Logic.AssemblyInfo.cs
+C:\Users\Youri\Source\Repos\twanmennen\REEEEEstrEEEEE\Logic\obj\Debug\netcoreapp2.0\Logic.csproj.CopyComplete
+C:\Users\Youri\Source\Repos\twanmennen\REEEEEstrEEEEE\Logic\obj\Debug\netcoreapp2.0\Logic.dll
+C:\Users\Youri\Source\Repos\twanmennen\REEEEEstrEEEEE\Logic\obj\Debug\netcoreapp2.0\Logic.pdb

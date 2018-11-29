@@ -12,6 +12,11 @@ namespace Logic
             registerContext.RegisterUser(newUserName, newUserEmail, newUserPassWord, newUserRole);
         }
 
+        public void RegisterCompany(Company company)
+        {
+            registerContext.RegisterCompany(company);
+        }
+
         public void FirstTimeLogIn(Account dataForUser)
         {
             registerContext.FirstTimeLogIn(dataForUser);

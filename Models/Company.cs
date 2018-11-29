@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Microsoft.AspNetCore.Http;
 
 namespace Models
 {
@@ -15,5 +16,6 @@ namespace Models
         public int Employee { get; set; }
         public string Link { get; set; }
         public string Info { get; set; }
+        public string Image { get; set; }
     }
 }
