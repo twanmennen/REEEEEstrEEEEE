@@ -1426,27 +1426,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Youri\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Users\\twanm\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Youri\\source\\repos\\twanmennen\\REEEEEstrEEEEE\\Logic\\Logic.csproj",
+      "projectUniqueName": "D:\\HBO ICT\\A S2 Poging 2\\Proftaak\\Code\\Rockstar\\REEEEEstrEEEEE\\Logic\\Logic.csproj",
       "projectName": "Logic",
-      "projectPath": "C:\\Users\\Youri\\source\\repos\\twanmennen\\REEEEEstrEEEEE\\Logic\\Logic.csproj",
-      "packagesPath": "C:\\Users\\Youri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Youri\\source\\repos\\twanmennen\\REEEEEstrEEEEE\\Logic\\obj\\",
+      "projectPath": "D:\\HBO ICT\\A S2 Poging 2\\Proftaak\\Code\\Rockstar\\REEEEEstrEEEEE\\Logic\\Logic.csproj",
+      "packagesPath": "C:\\Users\\twanm\\.nuget\\packages\\",
+      "outputPath": "D:\\HBO ICT\\A S2 Poging 2\\Proftaak\\Code\\Rockstar\\REEEEEstrEEEEE\\Logic\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Youri\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Users\\twanm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -1458,11 +1455,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\Youri\\source\\repos\\twanmennen\\REEEEEstrEEEEE\\Data\\Data.csproj": {
-              "projectPath": "C:\\Users\\Youri\\source\\repos\\twanmennen\\REEEEEstrEEEEE\\Data\\Data.csproj"
+            "D:\\HBO ICT\\A S2 Poging 2\\Proftaak\\Code\\Rockstar\\REEEEEstrEEEEE\\Data\\Data.csproj": {
+              "projectPath": "D:\\HBO ICT\\A S2 Poging 2\\Proftaak\\Code\\Rockstar\\REEEEEstrEEEEE\\Data\\Data.csproj"
             },
-            "C:\\Users\\Youri\\source\\repos\\twanmennen\\REEEEEstrEEEEE\\Models\\Models.csproj": {
-              "projectPath": "C:\\Users\\Youri\\source\\repos\\twanmennen\\REEEEEstrEEEEE\\Models\\Models.csproj"
+            "D:\\HBO ICT\\A S2 Poging 2\\Proftaak\\Code\\Rockstar\\REEEEEstrEEEEE\\Models\\Models.csproj": {
+              "projectPath": "D:\\HBO ICT\\A S2 Poging 2\\Proftaak\\Code\\Rockstar\\REEEEEstrEEEEE\\Models\\Models.csproj"
             }
           }
         }
