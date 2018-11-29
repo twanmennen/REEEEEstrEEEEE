@@ -1,0 +1,35 @@
+D:\SEMESTER 2 HERSTART\Rockstar proftaak\Rockstar\Rockstar\bin\Debug\netcoreapp2.0\Rockstar.deps.json
+D:\SEMESTER 2 HERSTART\Rockstar proftaak\Rockstar\Rockstar\bin\Debug\netcoreapp2.0\Rockstar.runtimeconfig.json
+D:\SEMESTER 2 HERSTART\Rockstar proftaak\Rockstar\Rockstar\bin\Debug\netcoreapp2.0\Rockstar.runtimeconfig.dev.json
+D:\SEMESTER 2 HERSTART\Rockstar proftaak\Rockstar\Rockstar\bin\Debug\netcoreapp2.0\Rockstar.dll
+D:\SEMESTER 2 HERSTART\Rockstar proftaak\Rockstar\Rockstar\bin\Debug\netcoreapp2.0\Rockstar.pdb
+D:\SEMESTER 2 HERSTART\Rockstar proftaak\Rockstar\Rockstar\bin\Debug\netcoreapp2.0\Data.dll
+D:\SEMESTER 2 HERSTART\Rockstar proftaak\Rockstar\Rockstar\bin\Debug\netcoreapp2.0\Logic.dll
+D:\SEMESTER 2 HERSTART\Rockstar proftaak\Rockstar\Rockstar\bin\Debug\netcoreapp2.0\Models.dll
+D:\SEMESTER 2 HERSTART\Rockstar proftaak\Rockstar\Rockstar\bin\Debug\netcoreapp2.0\Logic.pdb
+D:\SEMESTER 2 HERSTART\Rockstar proftaak\Rockstar\Rockstar\bin\Debug\netcoreapp2.0\Models.pdb
+D:\SEMESTER 2 HERSTART\Rockstar proftaak\Rockstar\Rockstar\bin\Debug\netcoreapp2.0\Data.pdb
+D:\SEMESTER 2 HERSTART\Rockstar proftaak\Rockstar\Rockstar\obj\Debug\netcoreapp2.0\Rockstar.csprojResolveAssemblyReference.cache
+D:\SEMESTER 2 HERSTART\Rockstar proftaak\Rockstar\Rockstar\obj\Debug\netcoreapp2.0\Rockstar.csproj.CoreCompileInputs.cache
+D:\SEMESTER 2 HERSTART\Rockstar proftaak\Rockstar\Rockstar\obj\Debug\netcoreapp2.0\Rockstar.AssemblyInfoInputs.cache
+D:\SEMESTER 2 HERSTART\Rockstar proftaak\Rockstar\Rockstar\obj\Debug\netcoreapp2.0\Rockstar.AssemblyInfo.cs
+D:\SEMESTER 2 HERSTART\Rockstar proftaak\Rockstar\Rockstar\obj\Debug\netcoreapp2.0\Rockstar.dll
+D:\SEMESTER 2 HERSTART\Rockstar proftaak\Rockstar\Rockstar\obj\Debug\netcoreapp2.0\Rockstar.pdb
+D:\HBO ICT\A S2 Poging 2\Proftaak\Code\Rockstar\anaal\Rockstar\Rockstar\bin\Debug\netcoreapp2.0\Rockstar.deps.json
+D:\HBO ICT\A S2 Poging 2\Proftaak\Code\Rockstar\anaal\Rockstar\Rockstar\bin\Debug\netcoreapp2.0\Rockstar.runtimeconfig.json
+D:\HBO ICT\A S2 Poging 2\Proftaak\Code\Rockstar\anaal\Rockstar\Rockstar\bin\Debug\netcoreapp2.0\Rockstar.runtimeconfig.dev.json
+D:\HBO ICT\A S2 Poging 2\Proftaak\Code\Rockstar\anaal\Rockstar\Rockstar\bin\Debug\netcoreapp2.0\Rockstar.dll
+D:\HBO ICT\A S2 Poging 2\Proftaak\Code\Rockstar\anaal\Rockstar\Rockstar\bin\Debug\netcoreapp2.0\Rockstar.pdb
+D:\HBO ICT\A S2 Poging 2\Proftaak\Code\Rockstar\anaal\Rockstar\Rockstar\bin\Debug\netcoreapp2.0\Data.dll
+D:\HBO ICT\A S2 Poging 2\Proftaak\Code\Rockstar\anaal\Rockstar\Rockstar\bin\Debug\netcoreapp2.0\Logic.dll
+D:\HBO ICT\A S2 Poging 2\Proftaak\Code\Rockstar\anaal\Rockstar\Rockstar\bin\Debug\netcoreapp2.0\Models.dll
+D:\HBO ICT\A S2 Poging 2\Proftaak\Code\Rockstar\anaal\Rockstar\Rockstar\bin\Debug\netcoreapp2.0\Logic.pdb
+D:\HBO ICT\A S2 Poging 2\Proftaak\Code\Rockstar\anaal\Rockstar\Rockstar\bin\Debug\netcoreapp2.0\Models.pdb
+D:\HBO ICT\A S2 Poging 2\Proftaak\Code\Rockstar\anaal\Rockstar\Rockstar\bin\Debug\netcoreapp2.0\Data.pdb
+D:\HBO ICT\A S2 Poging 2\Proftaak\Code\Rockstar\anaal\Rockstar\Rockstar\obj\Debug\netcoreapp2.0\Rockstar.csprojResolveAssemblyReference.cache
+D:\HBO ICT\A S2 Poging 2\Proftaak\Code\Rockstar\anaal\Rockstar\Rockstar\obj\Debug\netcoreapp2.0\Rockstar.csproj.CoreCompileInputs.cache
+D:\HBO ICT\A S2 Poging 2\Proftaak\Code\Rockstar\anaal\Rockstar\Rockstar\obj\Debug\netcoreapp2.0\Rockstar.AssemblyInfoInputs.cache
+D:\HBO ICT\A S2 Poging 2\Proftaak\Code\Rockstar\anaal\Rockstar\Rockstar\obj\Debug\netcoreapp2.0\Rockstar.AssemblyInfo.cs
+D:\HBO ICT\A S2 Poging 2\Proftaak\Code\Rockstar\anaal\Rockstar\Rockstar\obj\Debug\netcoreapp2.0\Rockstar.csproj.CopyComplete
+D:\HBO ICT\A S2 Poging 2\Proftaak\Code\Rockstar\anaal\Rockstar\Rockstar\obj\Debug\netcoreapp2.0\Rockstar.dll
+D:\HBO ICT\A S2 Poging 2\Proftaak\Code\Rockstar\anaal\Rockstar\Rockstar\obj\Debug\netcoreapp2.0\Rockstar.pdb

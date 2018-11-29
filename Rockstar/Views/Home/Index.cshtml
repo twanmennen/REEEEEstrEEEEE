@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@if (User.Identity.IsAuthenticated)
+{
+<div class="searchbalkWrapper">
+    @Html.Partial("~/Views/ShowReview/Searchbar.cshtml")
+</div>
+}
+
+
+
+<div class="text-center">
+    <img src="~/images/RockstarRankingLogo.png" class="logo__image" height="300" width="300" />
+    <h2>TEAM ROCKSTARS IT</h2>
+    <p>IT AGENCY VOOR TOP-NOTCH SOFTWARE ENGINEERS DIE BIJ ONZE KLANTEN WONDEREN VERRICHTEN IN UITEENLOPENDE IT PROJECTEN</p>
+</div>
