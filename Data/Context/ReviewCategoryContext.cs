@@ -25,5 +25,51 @@ namespace Data.Context
                 }
             }
         }
+
+        public List<Category> GetCategoriesSelectForCompany()
+        {
+            string query = "SELECT * FROM Category";
+            var categories = new List<Category>();
+
+            using (var conn = new SqlConnection(ConnectionString))
+            {
+                using (var cmd = new SqlCommand(query, conn))
+                {
+                    conn.Open();
+
+                    using (var reader = cmd.ExecuteReader())
+                    {
+                        var category = new Category()
+                        {
+                            Id = (int)reader["Id"],
+                            Name = (string)reader["Name"],
+                            Selected = false
+                        };
+                        categories.Add(category);
+                    }
+
+                    return categories;
+                }
+            }
+        }
+
+        public void AddSelectedCategoriesToCompany(int categoryId, int companyId)
+        {
+            string query = "INSERT INTO Rockstar_Company(Company_Id, Category_Id)" +
+                           "VALUES(@CompanyId, @CategoryId)";
+
+            using (var conn = new SqlConnection(ConnectionString))
+            {
+                using (var cmd = new SqlCommand(query, conn))
+                {
+                    conn.Open();
+
+                    cmd.Parameters.AddWithValue("@CompanyId", companyId);
+                    cmd.Parameters.AddWithValue("@CategoryId", categoryId);
+
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
     }
 }

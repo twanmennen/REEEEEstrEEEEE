@@ -10,5 +10,6 @@ namespace Models
         public string Name { get; set; }
         public int Rating { get; set; }
         public string Explanation { get; set; }
+        public bool Selected { get; set; }
     }
 }

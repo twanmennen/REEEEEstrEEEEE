@@ -10,5 +10,6 @@ namespace Rockstar.ViewModels.Category
     {
         public List<Company> Companies { get; set; }
         public List<Models.Category> Categories { get; set; }
+        public int CompanyId { get; set; }
     }
 }

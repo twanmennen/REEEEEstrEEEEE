@@ -30,6 +30,17 @@ namespace Rockstar.Controllers
 
         public IActionResult CategoriesOfCompany()
         {
+            var viewModel = new CategoriesOfCompanyViewModel();
+            viewModel.Categories = _reviewCategoryLogic.GetCategoriesSelectForCompany(); //Hiermee kan je dan met een checkbox de public bool Selected true maken
+            return View(viewModel);
+        }
+
+        [HttpPost]
+        public IActionResult CategoriesOfCompany(CategoriesOfCompanyViewModel viewModel)
+        {
+            var companyId = viewModel.CompanyId; //Value= company.Id van een select met companies
+            var categories = viewModel.Categories;
+            _reviewCategoryLogic.AddSelectedCategoriesToCompany(categories, companyId);
             return View();
         }
     }

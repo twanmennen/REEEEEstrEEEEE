@@ -19,5 +19,18 @@ namespace Logic
         {
             reviewCategoryContext.AddCategory(category);
         }
+
+        public List<Category> GetCategoriesSelectForCompany()
+        {
+            return reviewCategoryContext.GetCategoriesSelectForCompany();
+        }
+
+        public void AddSelectedCategoriesToCompany(List<Category> categories, int companyId)
+        {
+            foreach (var category in categories)
+            {
+                reviewCategoryContext.AddSelectedCategoriesToCompany(category.Id, companyId);
+            }
+        }
     }
 }
