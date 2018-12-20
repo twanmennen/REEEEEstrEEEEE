@@ -1,2 +1,34 @@
 ﻿@model Rockstar.ViewModels.Category.CategoriesOfCompanyViewModel
 
+
+<form method="post" enctype="multipart/form-data">
+    <div class="inner-wrapper">
+
+        <div class="inner-inner-wrapper">
+            <label>Category voor bedrijf</label>
+            <select class="form-control" id="brek" asp-for="CompanyId">
+                @foreach (var items in Model.Companies)
+                {
+                    <option value="@items.Id">@items.Name</option>
+                }
+            </select>
+
+            <div class="list-group">
+                @for (int i = 0; i < Model.Categories.Count; i++)
+                {
+                    <button type="button" class="list-group-item list-group-item-action" style="cursor: pointer;">@Model.Categories[i].Name  <input type="checkbox" asp-for="@Model.Categories[i].Selected" class="state-icon glyphicon glyphicon" id="checkin"></button>
+                }
+
+                @*@foreach (var item in Model.Categories)
+                {
+                    <button type="button" class="list-group-item list-group-item-action" style="cursor: pointer;">@item.Name<input type="checkbox" asp-for="@item.Selected" class="state-icon glyphicon glyphicon" id="checkin"></button>
+                }*@
+
+            </div>
+
+            <button class="navbar-btn btn btn-default" type="submit" id="regAddButton">Opslaan</button>
+
+
+        </div>
+    </div>
+</form>

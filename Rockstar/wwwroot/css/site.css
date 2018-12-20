@@ -32,12 +32,6 @@
     margin-top: 100px;
 }
 
-.logo__image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .navbar-inverse {
     background-color: black;
 }

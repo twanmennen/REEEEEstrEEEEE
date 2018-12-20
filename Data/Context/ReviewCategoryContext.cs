@@ -39,13 +39,15 @@ namespace Data.Context
 
                     using (var reader = cmd.ExecuteReader())
                     {
-                        var category = new Category()
-                        {
-                            Id = (int)reader["Id"],
-                            Name = (string)reader["Name"],
-                            Selected = false
-                        };
-                        categories.Add(category);
+                        while (reader.Read()) {
+                            var category = new Category()
+                            {
+                                Id = (int)reader["Id"],
+                                Name = (string)reader["Name"]
+                            };
+                            categories.Add(category);
+                        }
+                        
                     }
 
                     return categories;
@@ -55,7 +57,7 @@ namespace Data.Context
 
         public void AddSelectedCategoriesToCompany(int categoryId, int companyId)
         {
-            string query = "INSERT INTO Rockstar_Company(Company_Id, Category_Id)" +
+            string query = "INSERT INTO Category_Company(Company_Id, Category_Id)" +
                            "VALUES(@CompanyId, @CategoryId)";
 
             using (var conn = new SqlConnection(ConnectionString))

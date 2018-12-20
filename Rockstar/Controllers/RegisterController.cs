@@ -65,7 +65,7 @@ namespace Rockstar.Controllers
             var companyImagePath = Path.Combine(_hostingEnvironment.WebRootPath, mapRoot);
             await AddFileToDirectory(companyImage, companyImagePath);
 
-            return View();
+            return RedirectToAction("RegisterCompany");
         }
 
         public async Task AddFileToDirectory(IFormFile file, string path)

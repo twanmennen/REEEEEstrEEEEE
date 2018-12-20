@@ -28,11 +28,11 @@ namespace Data.Context
                                 Id = (int)reader["Id"],
                                 Name = (string)reader["Name"],
                                 Email = (string)reader["Email"],
-                                Password = (string)reader["Password"],
                                 Location = (string)reader["Location"],
-                                Employee = (int)reader["Employees"],
                                 Link = (string)reader["Link"],
-                                Info = (string)reader["Info"]
+                                Info = (string)reader["Info"],
+                                Image = (string)reader["Image"]
+
                             };
                         }
 
@@ -65,7 +65,8 @@ namespace Data.Context
                                 Location = (string)reader["Location"],
                                 Employee = (int)reader["Employees"],
                                 Link = (string)reader["Link"],
-                                Info = (string)reader["Info"]
+                                Info = (string)reader["Info"],
+                                Image = (string)reader["Image"]
                             };
                             companies.Add(company);
                         }

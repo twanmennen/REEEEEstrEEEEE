@@ -3,7 +3,7 @@
 
 
 
-<script type="text/javascript" language="javascript">
+@*<script type="text/javascript" language="javascript">
 
     $(document).ready(function () {
         SearchText1();
@@ -67,19 +67,21 @@
    
 
 
-</script>
+</script>*@
 
 
 
     
-    <div class="searchbalk">
-        <form method="post" asp-action="SearchResults" asp-controller="ShowReview">
-            <input class="form-control" type="text" placeholder="Search..." asp-for="SearchWord" id="searchbox1" />
-            <input class="form-control" type="text" placeholder="Search..." asp-for="SearchWord" id="searchbox2" />
-            <button class="btn btn-default" type="submit">Search</button>
-
-        </form>
-    </div>
+<div class="searchbalk">
+    <form method="post" asp-action="CompanySearchResults" asp-controller="ShowReview">
+        <input class="form-control" type="text" placeholder="Search..." asp-for="SearchWord" id="searchbox1" />
+        <button class="btn btn-default" type="submit">bedrijf</button>
+    </form>
+    <form method="post" asp-action="SearchResults" asp-controller="ShowReview">
+        <input class="form-control" type="text" placeholder="Search..." asp-for="SearchWord" id="searchbox2" />
+        <button class="btn btn-default" type="submit">review</button>
+    </form>
+</div>
 
     @*<div class="buttonsubmit">
         <button class="btn btn-default" type="submit">Search</button>

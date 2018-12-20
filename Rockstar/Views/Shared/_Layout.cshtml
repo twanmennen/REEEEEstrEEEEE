@@ -1,164 +1,164 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Rockstar</title>
-
     <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-
     <environment include="Development">
-        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css"/>
-        <link rel="stylesheet" href="~/css/site.css"/>
-        <link rel="stylesheet" href="~/css/EigenCSS.css"/>
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="~/css/site.css" />
+        <link rel="stylesheet" href="~/css/EigenCSS.css" />
+        <link rel="stylesheet" href="~/css/CSS.css" />
     </environment>
     <environment exclude="Development">
         <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
               asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
-              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute"/>
-        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true"/>
-        <link rel="stylesheet" href="~/css/EigenCSS.css" asp-append-version="true"/>
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/css/EigenCSS.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/css/CSS.css" asp-append-version="true" />
     </environment>
 </head>
 <body>
-<p>REEEEE</p>
-<p>DOUBLE REEEEE</p>
-<nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">Rockstar</a>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse">
+                <img src="~/images/RockstarRankingLogo.png" class="navbar-image" />
+                <ul class="nav navbar-nav margin-left100">
+                    <li>
+                        <a class="navtext-rockstar" asp-controller="Home" asp-action="Index">Home</a>
+                    </li>
+                </ul>
+
+                @if (User.Identity.IsAuthenticated)
+                {
+                    var roleId = Convert.ToInt32(User.Claims.Where(claim => claim.Type == "RoleId").Select(claim => claim.Value).SingleOrDefault());
+                    if (roleId == 1) //admin
+                    {
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a class="navtext-rockstar" asp-controller="Register" asp-action="RegisterUser">Registreer agent</a>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a class="navtext-rockstar" asp-controller="Profile" asp-action="GetUserProfile">Profiel</a>
+                            </li>
+                        </ul>
+                    }
+                    if (roleId == 2) //agent
+                    {
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a class="navtext-rockstar" asp-controller="Register" asp-action="RegisterUser">Registreer gebruiker</a>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a class="navtext-rockstar" asp-controller="Register" asp-action="RegisterCompany">Registreer bedrijf</a>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a class="navtext-rockstar" asp-controller="Profile" asp-action="GetUserProfile">Profiel</a>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a class="navtext-rockstar" asp-controller="Review" asp-action="Send">Verzend review</a>
+                            </li>
+                        </ul>
+                    }
+                    if (roleId == 3) //rockstar
+                    {
+                        @*<ul class="nav navbar-nav">
+                                <li>
+                                    <a asp-area="" asp-controller="Review" asp-action="New">Nieuwe review</a>
+                                </li>
+                            </ul>*@
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a class="navtext-rockstar" asp-controller="Profile" asp-action="GetUserProfile">Profiel</a>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a class="navtext-rockstar" asp-controller="Review" asp-action="Invites">Uitnodigingen</a>
+                            </li>
+                        </ul>
+                    }
+
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <input class="form-control input-rockstar" type="text" placeholder="Search..." id="searchbox1" />
+                        </li>
+                        <li>
+                            <a><span class="glyphicon glyphicon-search color-rockstar"></span></a>
+                        </li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a class="navtext-rockstar" asp-controller="LogOut" asp-action="Index">Logout</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-right">
+                        <li>
+                            <button class="btn btn-rockstar margin-top10">@User.Identity.Name</button>
+                        </li>
+                    </ul>
+
+                }
+
+                else
+                {
+                    <p class="nav navbar-right">
+                        <a asp-controller="LogIn" asp-action="Index" class="navbar-btn btn btn-rockstar">Login</a>
+                    </p>
+                }
+
+            </div>
         </div>
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-                <li>
-                    <a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                </li>
-            </ul>
-
-
-            @if (User.Identity.IsAuthenticated)
-            {
-                var roleId = Convert.ToInt32(User.Claims.Where(claim => claim.Type == "RoleId").Select(claim => claim.Value).SingleOrDefault());
-                if (roleId == 1) //admin
-                {
-                    <ul class="nav navbar-nav">
-                        <li>
-                            <a asp-area="" asp-controller="Register" asp-action="RegisterUser">Registreer agent</a>
-                        </li>
-                    </ul>
-                    <ul class="nav navbar-nav">
-                        <li>
-                            <a asp-area="" asp-controller="Profile" asp-action="GetUserProfile">Profiel</a>
-                        </li>
-                    </ul>
-                }
-                if (roleId == 2) //agent
-                {
-                    <ul class="nav navbar-nav">
-                        <li>
-                            <a asp-area="" asp-controller="Register" asp-action="RegisterUser">Registreer gebruiker</a>
-                        </li>
-                    </ul>
-                    <ul class="nav navbar-nav">
-                        <li>
-                            <a asp-area="" asp-controller="Profile" asp-action="GetUserProfile">Profiel</a>
-                        </li>
-                    </ul>
-                    <ul class="nav navbar-nav">
-                        <li>
-                            <a asp-area="" asp-controller="Review" asp-action="Send">Verzend review</a>
-                        </li>
-                    </ul>
-                }
-                if (roleId == 3) //rockstar
-                {
-					@*<ul class="nav navbar-nav">
-						<li>
-							<a asp-area="" asp-controller="Review" asp-action="New">Nieuwe review</a>
-						</li>
-					</ul>*@
-                    <ul class="nav navbar-nav">
-                        <li>
-                            <a asp-area="" asp-controller="Profile" asp-action="GetUserProfile">Profiel</a>
-                        </li>
-                    </ul>
-                    <ul class="nav navbar-nav">
-                        <li>
-                            @*@Html.Partial("~/Views/ShowReview/Searchbar.cshtml")*@
-                        </li>
-                    </ul>
-                    <ul class="nav navbar-nav">
-                        <li>
-                            <a asp-area="" asp-controller="Review" asp-action="Invites">Uitnodigingen</a>
-                        </li>
-                    </ul>
-                }
-                if (roleId == 4) //bedrijf
-                {
-                    <ul class="nav navbar-nav">
-                        <li>
-                            <a asp-area="" asp-controller="Profile" asp-action="GetCompanyProfile">Profiel</a>
-                        </li>
-                    </ul>
-                }
-
-
-                <p class="nav navbar-right">
-                    <a @*asp-controller="Account" asp-action="Login" *@ class="navbar-btn btn btn-default">@User.Identity.Name</a>
-                    <a class="navbar-text" asp-controller="LogOut" asp-action="Index">Logout</a>
-                </p>
-            }
-
-            else
-            {
-                <p class="nav navbar-right">
-                    <a asp-controller="LogIn" asp-action="Index" class="navbar-btn btn btn-default">Login</a>
-                    @*<a asp-controller="Account" asp-action="Register" class="navbar-text">Registreer</a>*@
-                </p>
-            }
-
-
-        </div>
+    </nav>
+    <div class="container body-content">
+        @RenderBody()
+        @*<hr />
+            <footer>
+                <p>&copy; 2018 - Rockstar</p>
+            </footer>*@
     </div>
-</nav>
-<div class="container body-content">
-    @RenderBody()
-    @*<hr />
-		<footer>
-			<p>&copy; 2018 - Rockstar</p>
-		</footer>*@
-</div>
-
-<environment include="Development">
-    @*<script src="~/lib/jquery/dist/jquery.js"></script>*@
-
-    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-</environment>
-<environment exclude="Development">
-    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
-            asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
-            asp-fallback-test="window.jQuery"
-            crossorigin="anonymous"
-            integrity="sha384-K+ctZQ+LL8q6tP7I94W+qzQsfRV2a+AfHIi9k8z8l9ggpc8X+Ytst4yBo/hH+8Fk">
-    </script>
-    <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"
-            asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
-            asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
-            crossorigin="anonymous"
-            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
-    </script>
-    <script src="~/js/site.min.js" asp-append-version="true"></script>
-</environment>
-
-@RenderSection("Scripts", false)
+    <environment include="Development">
+        
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+    </environment>
+    <environment exclude="Development">
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery"
+                crossorigin="anonymous"
+                integrity="sha384-K+ctZQ+LL8q6tP7I94W+qzQsfRV2a+AfHIi9k8z8l9ggpc8X+Ytst4yBo/hH+8Fk">
+        </script>
+        <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                crossorigin="anonymous"
+                integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
+        </script>
+        <script src="~/js/site.min.js" asp-append-version="true"></script>
+    </environment>
+    @RenderSection("Scripts", false)
 </body>
 </html>

@@ -215,5 +215,96 @@ namespace Data.Context
                 }
             }
         }
+
+        public List<Company> SearchCompany(string search)
+        {
+            List<Company> companies = new List<Company>();
+            string query = "SELECT * From Company where Name LIKE '%" + search + "%'";
+            using (var conn = new SqlConnection(ConnectionString))
+            {
+                conn.Open();
+                using (var cmd = new SqlCommand(query, conn))
+                {
+                    using (var reader = cmd.ExecuteReader())
+                    {
+                        if (reader.HasRows)
+                        {
+                            while (reader.Read())
+                            {
+
+                                Company company = new Company()
+                                {
+                                    Id = (int)reader["Id"],
+                                    Name = (string)reader["Name"],
+                                    Email = (string)reader["Email"],
+                                    TelephoneNr = (string)reader["Phonenumber"],
+                                    Location = (string)reader["Location"],
+                                    Employee = (int)reader["Employees"],
+                                    Link = (string)reader["Link"],
+                                    Info = (string)reader["Info"],
+                                    Image = (string)reader["Image"]
+                                };
+
+
+
+                                companies.Add(company);
+                            }
+                        }
+                    }
+                }
+
+                conn.Close();
+
+
+
+
+                return companies;
+            }
+        }
+
+
+        public List<Review> GetReviewsByCompany(int companyId)
+        {
+            List<Review> reviews = new List<Review>();
+            string query = "SELECT * From REVIEW where Company_Id = " + companyId + " AND IsInvite = 0 ";
+            using (var conn = new SqlConnection(ConnectionString))
+            {
+                conn.Open();
+                using (var cmd = new SqlCommand(query, conn))
+                {
+                    using (var reader = cmd.ExecuteReader())
+                    {
+                        if (reader.HasRows)
+                        {
+                            while (reader.Read())
+                            {
+                                Review review = new Review()
+                                {
+                                    Function = (string)reader["Function"],
+                                    StartDate = (DateTime)reader["StartDate"],
+                                    EndDate = (DateTime)reader["EndDate"],
+                                    Overall = (int)reader["Overall"],
+                                    Explanation = (string)reader["Explanation"],
+                                    Categories = GetCategories((int)reader["Id"])
+
+                                };
+
+
+
+
+
+                                reviews.Add(review);
+                            }
+                        }
+                    }
+                }
+                conn.Close();
+
+
+
+
+                return reviews;
+            }
+        }
     }
 }

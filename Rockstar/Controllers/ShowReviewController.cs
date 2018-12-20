@@ -25,24 +25,32 @@ namespace Rockstar.Controllers
 			return View();
 		}
 
-		[HttpPost]
-		public IActionResult SearchResults(SearchReviewViewModel viewModel)
+        [HttpPost]
+        public IActionResult CompanySearchResults(SearchReviewViewModel viewModel)
         {
-			if (viewModel.Rating > 0 && viewModel.Rating < 6)
-			{
-				viewModel.SearchResults = ShowReviewLogic.SearchReviewsByRating(viewModel.Rating, viewModel.SearchWord);
-			}
-			else
-			{
-				viewModel.SearchResults = ShowReviewLogic.SearchReviews(viewModel.SearchWord);
-			}
+            viewModel.SearchResultsCompanies = ShowReviewLogic.SearchCompany(viewModel.SearchWord);
 
-			
-			
-			
 
-			return View(viewModel);
-		}
+
+            return View("CompanySearchResults", viewModel);
+        }
+
+        [HttpPost]
+        public IActionResult SearchResults(SearchReviewViewModel viewModel)
+        {
+            if (viewModel.Rating > 0 && viewModel.Rating < 6)
+            {
+                viewModel.SearchResults = ShowReviewLogic.SearchReviewsByRating(viewModel.Rating, viewModel.SearchWord);
+            }
+            else
+            {
+                viewModel.SearchResults = ShowReviewLogic.SearchReviews(viewModel.SearchWord);
+            }
+
+            return View(viewModel);
+        }
+
+
         [HttpPost]
         public JsonResult AutoComplete(string Prefix)
         {

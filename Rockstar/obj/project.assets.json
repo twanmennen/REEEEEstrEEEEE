@@ -13508,11 +13508,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Youri\\Source\\Repos\\twanmennen\\REEEEEstrEEEEE\\Rockstar\\Rockstar.csproj",
+      "projectUniqueName": "D:\\Users\\Youri\\Documents\\Fontys\\S22\\REEEEEstrEEEEE\\Rockstar\\Rockstar.csproj",
       "projectName": "Rockstar",
-      "projectPath": "C:\\Users\\Youri\\Source\\Repos\\twanmennen\\REEEEEstrEEEEE\\Rockstar\\Rockstar.csproj",
+      "projectPath": "D:\\Users\\Youri\\Documents\\Fontys\\S22\\REEEEEstrEEEEE\\Rockstar\\Rockstar.csproj",
       "packagesPath": "C:\\Users\\Youri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Youri\\Source\\Repos\\twanmennen\\REEEEEstrEEEEE\\Rockstar\\obj\\",
+      "outputPath": "D:\\Users\\Youri\\Documents\\Fontys\\S22\\REEEEEstrEEEEE\\Rockstar\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
@@ -13533,11 +13533,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\Youri\\Source\\Repos\\twanmennen\\REEEEEstrEEEEE\\Logic\\Logic.csproj": {
-              "projectPath": "C:\\Users\\Youri\\Source\\Repos\\twanmennen\\REEEEEstrEEEEE\\Logic\\Logic.csproj"
+            "D:\\Users\\Youri\\Documents\\Fontys\\S22\\REEEEEstrEEEEE\\Logic\\Logic.csproj": {
+              "projectPath": "D:\\Users\\Youri\\Documents\\Fontys\\S22\\REEEEEstrEEEEE\\Logic\\Logic.csproj"
             },
-            "C:\\Users\\Youri\\Source\\Repos\\twanmennen\\REEEEEstrEEEEE\\Models\\Models.csproj": {
-              "projectPath": "C:\\Users\\Youri\\Source\\Repos\\twanmennen\\REEEEEstrEEEEE\\Models\\Models.csproj"
+            "D:\\Users\\Youri\\Documents\\Fontys\\S22\\REEEEEstrEEEEE\\Models\\Models.csproj": {
+              "projectPath": "D:\\Users\\Youri\\Documents\\Fontys\\S22\\REEEEEstrEEEEE\\Models\\Models.csproj"
             }
           }
         }

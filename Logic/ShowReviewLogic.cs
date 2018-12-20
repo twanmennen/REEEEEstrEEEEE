@@ -17,6 +17,16 @@ namespace Logic
             _companyContext = new CompanyContext();
 	    }
 
+        public List<Review> GetReviewsByCompany(int companyId)
+        {
+            return _showReviewContext.GetReviewsByCompany(companyId);
+        }
+
+        public List<Company> SearchCompany(string search)
+        {
+            return _showReviewContext.SearchCompany(search);
+        }
+
         public List<Review> SearchReviews(string search)
 		{
 			return _showReviewContext.SearchReviews(search);

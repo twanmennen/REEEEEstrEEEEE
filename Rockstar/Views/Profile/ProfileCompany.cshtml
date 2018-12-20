@@ -29,6 +29,14 @@
                         <td>@Model.Company.TelephoneNr</td>
                     </tr>
                     <tr>
+                        <th>Aantal werknemers</th>
+                        <td>@Model.Company.Employee</td>
+                    </tr>
+                    <tr>
+                        <th>Extra Info</th>
+                        <td>@Model.Company.Location</td>
+                    </tr>
+                    <tr>
                         <th>Extra Info</th>
                         <td>@Model.Company.Info</td>
                     </tr>
@@ -84,53 +92,81 @@
                 }
             }
         </script>
+    </div>
+
+
+    @foreach (var item in Model.Reviews)
+    {
+        <div class="tablerow">
+            <div class="collapsible">
+                <div class="item">@item.Company.Name</div>
+                <div class="item">
+                    @for (int i = 0; i < item.Overall; i++)
+                    {
+                        <span class="icon">★</span>
+                    }
+                    <div class="items"> @item.Explanation</div>
+                </div>
+
+
+            </div>
+            <div class="content">
+                <div class="overall">
+                    <div class="items">Functie: @item.Function</div>
+                    <div class="itemz">Begon datum: @item.StartDate</div>
+                    <div class="itemz">Eind datum: @item.EndDate</div>
+                </div>
+                @foreach (Models.Category c in item.Categories)
+                {
+                    <br />
+                    <div class="individual">
+                        <div class="items">@c.Name</div>
+                        @for (int i = 0; i < c.Rating; i++)
+                        {
+                            <span class="icon">★</span>
+                        }
+                        <div class="item">@c.Explanation</div>
+                    </div>
+                    <br />
+                }
+            </div>
+            <br /><br />
         </div>
 
 
-        <hr />
-
-        @foreach (var review in Model.Reviews)
-        {
-            <div class="review">
-
-                <div class="leftcol">
-                    <img src="https://cdn1.iconfinder.com/data/icons/social-messaging-productivity-1-1/128/gender-male2-512.png" id="profilepic" />
-                    <div class="lefttext">
-                        <div class="row">@review.Account.Name</div>
-                    </div>
+        <div class="tablerow">
+            <div class="collapsible">
+                <div class="item">@item.Company.Name</div>
+                <div class="item">
+                    @for (int i = 0; i < item.Overall; i++)
+                    {
+                        <span class="icon">★</span>
+                    }
                 </div>
 
-                <div class="rightcol">
-                    <div class="righttext">
-                        @if (review.Overall == 1)
-                        {
-                            <span class="icon">Beoordeling: ★</span>
-                        }
-                        @if (review.Overall == 2)
-                        {
-                            <span class="icon">Beoordeling: ★★</span>
-                        }
-                        @if (review.Overall == 3)
-                        {
-                            <span class="icon">Beoordeling: ★★★</span>
-                        }
-                        @if (review.Overall == 4)
-                        {
-                            <span class="icon">Beoordeling: ★★★★</span>
-                        }
-                        @if (review.Overall == 5)
-                        {
-                            <span class="icon">Beoordeling: ★★★★★</span>
-                        }
-                        <div class="row">Functie: @review.Function</div>
-                        <div class="row">Begindatum: @review.StartDate</div>
-                        <div class="row">Einddatum: @review.EndDate</div>
-                        <div class="row">Uitleg: @review.Explanation</div>
-                    </div>
-                </div>
 
             </div>
-        }
+            <div class="content">
+                <div class="overall">
+                    <div class="items">@item.Function</div>
+                    <div class="items">@item.Explanation</div>
+                    <div class="itemz">@item.StartDate</div>
+                    <div class="itemz">@item.EndDate</div>
+                </div>
+                @foreach (Models.Category c in item.Categories)
+                {
+                    <div class="individual">
+                        <div class="items">@c.Name</div>
+                        @for (int i = 0; i < c.Rating; i++)
+                        {
+                            <span class="icon">★</span>
+                        }
+                        <div class="item">@c.Explanation</div>
+                    </div>
+                }
+            </div>
+        </div>
+    }
 
 
-    </div>
+</div>

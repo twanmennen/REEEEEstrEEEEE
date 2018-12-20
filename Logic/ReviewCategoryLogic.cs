@@ -27,9 +27,14 @@ namespace Logic
 
         public void AddSelectedCategoriesToCompany(List<Category> categories, int companyId)
         {
-            foreach (var category in categories)
+
+            for (int i = 0; i < categories.Count; i++)
             {
-                reviewCategoryContext.AddSelectedCategoriesToCompany(category.Id, companyId);
+                if (categories[i].Selected == true)
+                {
+                    reviewCategoryContext.AddSelectedCategoriesToCompany((i+1), companyId);
+                }
+                
             }
         }
     }

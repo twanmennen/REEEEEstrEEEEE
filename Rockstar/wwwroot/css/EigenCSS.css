@@ -13,133 +13,7 @@
     float: right;
 }
 
-.rating {
-    display: inline-block;
-    position: relative;
-    height: 50px;
-    line-height: 50px;
-    font-size: 50px;
-}
 
-.rating label {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    cursor: pointer;
-}
-
-.rating label:last-child {
-    position: static;
-}
-
-.rating label:nth-child(1) {
-    z-index: 5;
-}
-
-.rating label:nth-child(2) {
-    z-index: 4;
-}
-
-.rating label:nth-child(3) {
-    z-index: 3;
-}
-
-.rating label:nth-child(4) {
-    z-index: 2;
-}
-
-.rating label:nth-child(5) {
-    z-index: 1;
-}
-
-.rating label input {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-}
-
-.rating label .icon {
-    float: left;
-    color: transparent;
-}
-
-.rating label:last-child .icon {
-    color: #000;
-}
-
-.rating:not(:hover) label input:checked ~ .icon,
-.rating:hover label:hover input ~ .icon {
-    color: #FFE000;
-}
-
-.rating label input:focus:not(:checked) ~ .icon:last-child {
-    color: #000;
-    text-shadow: 0 0 5px #FFE000;
-}
-
-/*Button Rockstar theme*/
-
-.btn-rockstar {
-    color: white;
-    background-color: #f8db01;
-    border-color: #ffc107;
-    margin: 50px 0px;
-    width: 100%;
-}
-.btn-rockstar:focus,
-.btn-rockstar.focus {
-    color: black;
-    background-color: #f8db01;
-    border-color: #b39e00; /*#FFE000 + 3*/
-}
-.btn-rockstar:hover {
-    color: black;
-    background-color: #f8db01;
-    border-color: #ccb400;
-}
-.btn-rockstar:active,
-.btn-rockstar.active,
-.open > .dropdown-toggle.btn-rockstar {
-    color: black;
-    background-color: #f8db01;
-    border-color: #e6cb00;
-}
-.btn-rockstar:active:hover,
-.btn-rockstar.active:hover,
-.open > .dropdown-toggle.btn-rockstar:hover,
-.btn-rockstar:active:focus,
-.btn-rockstar.active:focus,
-.open > .dropdown-toggle.btn-rockstar:focus,
-.btn-rockstar:active.focus,
-.btn-rockstar.active.focus,
-.open > .dropdown-toggle.btn-rockstar.focus {
-    color: black;
-    background-color: #f8db01;
-    border-color: #b39e00; /*#FFE000 + 3*/
-}
-.btn-rockstar:active,
-.btn-rockstar.active,
-.open > .dropdown-toggle.btn-rockstar {
-    background-image: none;
-}
-.btn-rockstar.disabled:hover,
-.btn-rockstar[disabled]:hover,
-fieldset[disabled] .btn-rockstar:hover,
-.btn-rockstar.disabled:focus,
-.btn-rockstar[disabled]:focus,
-fieldset[disabled] .btn-rockstar:focus,
-.btn-rockstar.disabled.focus,
-.btn-rockstar[disabled].focus,
-fieldset[disabled] .btn-rockstar.focus {
-    background-color: #f8db01;
-    border-color: #e6cb00;
-}
-.btn-rockstar .badge {
-    color: #ffe000;
-    background-color: #fff;
-}
 
 .review {
 	margin-top:20px;
@@ -150,31 +24,10 @@ fieldset[disabled] .btn-rockstar.focus {
     background-color: #3a3a3a;
     color:white;
 }
-.boxje{
+/*.boxje{
    
     padding: 25px 50px 2px 50px;
-}
-
-.btn-black {
-    border: none;
-    outline: none;
-    height: 40px;
-    background: #f8db01;
-    color: white;
-    font-size: 18px;
-    border-radius: 5px;
-    width: 100%;
-}
-    .btn-black:hover {
-        cursor: pointer;
-        background: #f8db01;
-        color: #000;
-    }
-.loginbutton{
-    text-align:center;
-    margin-top: 30px;
-    color: black;
-}
+}*/
 
 p{
     color:white;
@@ -214,8 +67,10 @@ table, th, td {
     margin-top: 100px;
 }
 
+/* CompanyProfile*/
+
 .profileImage {
-    background-image: url(profileimage.jpg);
+    background-color: red;
     height: 200px;
     width: 200px;
     margin: 0 auto;
@@ -383,17 +238,7 @@ span.psw {
         width: 100%;
     }
 }
-.navbar-btn {
-    background-color: #f8db01;
-    color: black;
-    border-color: #ffc107;
-}
 
-.navbar-btn:hover {
-    background-color: #feed67;
-    color: black;
-    border-color: #feed67;
-}
 
 
 .items {
@@ -453,4 +298,60 @@ span.psw {
 
 #sendbutton{
     margin-top: 24px;
+}
+
+/*Register company*/
+
+.inner-wrapper {
+    margin-top: 100px;
+    width: 100%;
+    padding: 30px 30px 10px 30px;
+    border: 1px solid white;
+    display: block;
+    overflow: auto;
+    height: 100%;
+}
+
+.maps-container {
+    height: 400px;
+    width: 60%;
+    float: right;
+    border: 1px solid white;
+}
+
+.ingo {
+    float: left;
+    width: 100%;
+}
+
+.inputvelden {
+    float: left;
+    width: 35%;
+}
+
+#regAddButton {
+    float:right;
+}
+
+.inner-inner-wrapper {
+    width: 50%;
+    margin: 10px auto
+}
+
+#brek {
+    margin-bottom: 20px;
+}
+
+#checkin {
+    float: right;
+}
+
+.changeBtn{
+    float:right;
+}
+
+/*Letterkleur*/
+
+#listCat {
+    color: black;
 }

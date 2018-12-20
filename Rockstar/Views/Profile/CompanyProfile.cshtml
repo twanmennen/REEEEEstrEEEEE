@@ -1,0 +1,268 @@
+﻿@model Rockstar.ViewModels.Account.CompanyProfileViewModel
+
+<div class="container">
+
+    @*<div class="companyinfo">
+            <div class="companyname"><h1>@Model.Company.Name</h1></div>
+            <div class="row">Locatie: @Model.Company.Location</div>
+        </div>*@
+
+    <div class="companyinfo">
+        <div class="wrapper">
+            <div class="inner-wrapper">
+                <div class="profileImage">
+                    @*<img src="~/CompanyImages/@Model.Company.Image" alt="Alternate Text" />*@
+                    <img src="~/CompanyImages/@Model.Company.Image" alt="Alternate Text"  class="profileImage" height="200" width="200" />
+                </div>
+
+                <table>
+                    <tr>
+                        <th>Naam</th>
+                        <td>@Model.Company.Name</td>
+                    </tr>
+                    <tr>
+                        <th>Email</th>
+                        <td>@Model.Company.Email</td>
+                    </tr>
+                    <tr>
+                        <th>Telefoonnummer</th>
+                        <td>@Model.Company.TelephoneNr</td>
+                    </tr>
+                    <tr>
+                        <th>Aantal werknemers</th>
+                        <td>@Model.Company.Employee</td>
+                    </tr>
+                    <tr>
+                        <th>Extra Info</th>
+                        <td>@Model.Company.Location</td>
+                    </tr>
+                    <tr>
+                        <th>Extra Info</th>
+                        <td>@Model.Company.Info</td>
+                    </tr>
+                </table>
+                @if (User.Identity.IsAuthenticated)
+
+                {
+                    int roleId = Convert.ToInt32(User.Claims.Where(claim => claim.Type == "RoleId").Select(claim => claim.Value).SingleOrDefault());
+
+                    if (roleId == 2)
+                    {
+                        <div class="changeBtn">
+                            <button class="navbar-btn btn btn-default" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Change</button>
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+
+
+        <div id="id01" class="modal">
+
+            <form class="modal-content animate" action="/action_page.php">
+                <div class="imgcontainer">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    <img src="profileimage.jpg" alt="Avatar" class="avatar">
+                </div>
+                <div class="chips">
+                    <button class="button4">Change picture</button>
+                </div>
+
+                <div class="containerz">
+                    <label><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname">
+
+                    <label><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email">
+
+                    <label><b>Phone</b></label>
+                    <input type="text" placeholder="Enter Phonenumber" name="phone">
+
+                    <label><b>Date of birth</b></label>
+                    <input type="text" placeholder="Enter Date of birth" name="birth">
+
+                    <button class="button5" type="submit">Change</button>
+                </div>
+
+                <div class="containerz" style="background-color:#f1f1f1">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                </div>
+            </form>
+        </div>
+
+        <script>
+            // Get the modal
+            var modal = document.getElementById('id01');
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function (event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+        </script>
+    </div>
+
+
+    @foreach (var item in Model.Reviews)
+    {
+        <div class="tablerow">
+            <div class="collapsible">
+                @*<div class="item">@Model.Company.Name</div>*@
+                <div class="item">
+                    @for (int i = 0; i < item.Overall; i++)
+                    {
+                        <span class="icon">★</span>
+                    }
+                    <div class="items"> @item.Explanation</div>
+                </div>
+
+
+            </div>
+            <div class="content">
+                <div class="overall">
+                    <div class="items">Functie: @item.Function</div>
+                    <div class="itemz">Begon datum: @item.StartDate</div>
+                    <div class="itemz">Eind datum: @item.EndDate</div>
+                </div>
+                @foreach (Models.Category c in item.Categories)
+                {
+                    <br />
+                    <div class="individual">
+                        <div class="items">@c.Name</div>
+                        @for (int i = 0; i < c.Rating; i++)
+                        {
+                            <span class="icon">★</span>
+                        }
+                        <div class="item">@c.Explanation</div>
+                    </div>
+                    <br />
+                }
+            </div>
+            <br /><br />
+        </div>
+
+
+        <div class="tablerow">
+            <div class="collapsible">
+                @*<div class="item">@item.Company.Name</div>*@
+                <div class="item">
+                    @for (int i = 0; i < item.Overall; i++)
+                    {
+                        <span class="icon">★</span>
+                    }
+                </div>
+
+
+            </div>
+            <div class="content">
+                <div class="overall">
+                    <div class="items">@item.Function</div>
+                    <div class="items">@item.Explanation</div>
+                    <div class="itemz">@item.StartDate</div>
+                    <div class="itemz">@item.EndDate</div>
+                </div>
+                @foreach (Models.Category c in item.Categories)
+                {
+                    <div class="individual">
+                        <div class="items">@c.Name</div>
+                        @for (int i = 0; i < c.Rating; i++)
+                        {
+                            <span class="icon">★</span>
+                        }
+                        <div class="item">@c.Explanation</div>
+                    </div>
+                }
+            </div>
+        </div>
+    }
+</div>
+
+<style>
+    .collapsible {
+        background-color: #777;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+    }
+
+        .active, .collapsible:hover {
+            background-color: #555;
+        }
+
+    .content {
+        padding: 0 18px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        background-color: #f1f1f1;
+        color: black;
+    }
+</style>
+
+
+
+
+<script>
+
+		@*function sortRating() {
+
+
+
+			var table, rows, switching, i, x, y, shouldSwitch;
+			table = document.getElementById("table");
+			alert(table.rows[1].getElementsByClassName("item")[1].innerHTML);
+			switching = true;
+			/*Make a loop that will continue until
+			no switching has been done:*/
+			while (switching) {
+				//start by saying: no switching is done:
+				switching = false;
+				rows = table.rows;
+				/*Loop through all table rows (except the
+				first, which contains table headers):*/
+				for (i = 1; i < (rows.length - 1); i++) {
+					//start by saying there should be no switching:
+					shouldSwitch = false;
+					/*Get the two elements you want to compare,
+					one from current row and one from the next:*/
+					x = rows[i].getElementsByTagName("LI");
+					y = rows[i + 1].getElementsByTagName("LI");
+					//check if the two rows should switch place:
+					if (Number(x.innerHTML) > Number(y.innerHTML)) {
+						//if so, mark as a switch and break the loop:
+						shouldSwitch = true;
+						break;
+					}
+				}
+				if (shouldSwitch) {
+					/*If a switch has been marked, make the switch
+					and mark that a switch has been done:*/
+					rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+					switching = true;
+				}
+			}
+		}*@
+
+
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+			coll[i].addEventListener("click", function () {
+				this.classList.toggle("active");
+				var content = this.nextElementSibling;
+				if (content.style.maxHeight) {
+					content.style.maxHeight = null;
+				} else {
+					content.style.maxHeight = content.scrollHeight + "px";
+				}
+			});
+		}
+</script>
+

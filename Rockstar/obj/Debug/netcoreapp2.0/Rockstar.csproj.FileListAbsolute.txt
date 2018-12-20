@@ -68,3 +68,39 @@ D:\SEMESTER 2 HERSTART\RockstarV2.0\REEEEEstrEEEEE\Rockstar\obj\Debug\netcoreapp
 D:\SEMESTER 2 HERSTART\RockstarV2.0\REEEEEstrEEEEE\Rockstar\obj\Debug\netcoreapp2.0\Rockstar.AssemblyInfo.cs
 D:\SEMESTER 2 HERSTART\RockstarV2.0\REEEEEstrEEEEE\Rockstar\obj\Debug\netcoreapp2.0\Rockstar.dll
 D:\SEMESTER 2 HERSTART\RockstarV2.0\REEEEEstrEEEEE\Rockstar\obj\Debug\netcoreapp2.0\Rockstar.pdb
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Rockstar\bin\Debug\netcoreapp2.0\Rockstar.deps.json
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Rockstar\bin\Debug\netcoreapp2.0\Rockstar.runtimeconfig.json
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Rockstar\bin\Debug\netcoreapp2.0\Rockstar.runtimeconfig.dev.json
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Rockstar\bin\Debug\netcoreapp2.0\Rockstar.dll
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Rockstar\bin\Debug\netcoreapp2.0\Rockstar.pdb
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Rockstar\bin\Debug\netcoreapp2.0\Data.dll
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Rockstar\bin\Debug\netcoreapp2.0\Logic.dll
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Rockstar\bin\Debug\netcoreapp2.0\Models.dll
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Rockstar\bin\Debug\netcoreapp2.0\Logic.pdb
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Rockstar\bin\Debug\netcoreapp2.0\Models.pdb
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Rockstar\bin\Debug\netcoreapp2.0\Data.pdb
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Rockstar\obj\Debug\netcoreapp2.0\Rockstar.csprojAssemblyReference.cache
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Rockstar\obj\Debug\netcoreapp2.0\Rockstar.csproj.CoreCompileInputs.cache
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Rockstar\obj\Debug\netcoreapp2.0\Rockstar.AssemblyInfoInputs.cache
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Rockstar\obj\Debug\netcoreapp2.0\Rockstar.AssemblyInfo.cs
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Rockstar\obj\Debug\netcoreapp2.0\Rockstar.csproj.CopyComplete
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Rockstar\obj\Debug\netcoreapp2.0\Rockstar.dll
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Rockstar\obj\Debug\netcoreapp2.0\Rockstar.pdb
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Rockstar\bin\Debug\netcoreapp2.0\Rockstar.deps.json
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Rockstar\bin\Debug\netcoreapp2.0\Rockstar.runtimeconfig.json
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Rockstar\bin\Debug\netcoreapp2.0\Rockstar.runtimeconfig.dev.json
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Rockstar\bin\Debug\netcoreapp2.0\Rockstar.dll
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Rockstar\bin\Debug\netcoreapp2.0\Rockstar.pdb
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Rockstar\bin\Debug\netcoreapp2.0\Data.dll
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Rockstar\bin\Debug\netcoreapp2.0\Logic.dll
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Rockstar\bin\Debug\netcoreapp2.0\Models.dll
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Rockstar\bin\Debug\netcoreapp2.0\Logic.pdb
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Rockstar\bin\Debug\netcoreapp2.0\Models.pdb
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Rockstar\bin\Debug\netcoreapp2.0\Data.pdb
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Rockstar\obj\Debug\netcoreapp2.0\Rockstar.csprojResolveAssemblyReference.cache
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Rockstar\obj\Debug\netcoreapp2.0\Rockstar.csproj.CoreCompileInputs.cache
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Rockstar\obj\Debug\netcoreapp2.0\Rockstar.AssemblyInfoInputs.cache
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Rockstar\obj\Debug\netcoreapp2.0\Rockstar.AssemblyInfo.cs
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Rockstar\obj\Debug\netcoreapp2.0\Rockstar.csproj.CopyComplete
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Rockstar\obj\Debug\netcoreapp2.0\Rockstar.dll
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Rockstar\obj\Debug\netcoreapp2.0\Rockstar.pdb

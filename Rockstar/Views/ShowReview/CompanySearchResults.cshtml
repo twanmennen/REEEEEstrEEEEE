@@ -1,0 +1,28 @@
+﻿@model Rockstar.ViewModels.Review.SearchReviewViewModel
+@{
+    ViewData["Title"] = "SearchResults";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Zoek resultaten</h2>
+@foreach (var item in Model.SearchResultsCompanies)
+{
+
+    <a asp-action="CompanyProfile" asp-controller="Profile" asp-route-id="@item.Id">@item.Name</a>
+
+
+}
+
+<script>var coll = document.getElementsByClassName("collapsible");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+			coll[i].addEventListener("click", function () {
+				this.classList.toggle("active");
+				var content = this.nextElementSibling;
+				if (content.style.maxHeight) {
+					content.style.maxHeight = null;
+				} else {
+					content.style.maxHeight = content.scrollHeight + "px";
+				}
+			});
+		}</script>

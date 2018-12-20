@@ -12,6 +12,7 @@ namespace Rockstar.ViewModels.Review
 		public List<Models.Review> SearchResults { get; set; } = new List<Models.Review>();
         public List<Models.Review> SearchResultsByRating { get; set; } = new List<Models.Review>();
 		public int Rating { get; set; }
-	
-	}
+        public List<Company> SearchResultsCompanies { get; set; } = new List<Company>();
+
+    }
 }

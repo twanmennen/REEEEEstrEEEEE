@@ -12,6 +12,7 @@ namespace Rockstar.Controllers
     {
         private ReviewLogic _reviewLogic = new ReviewLogic();
         private ReviewCategoryLogic _reviewCategoryLogic = new ReviewCategoryLogic();
+        private CompanyLogic _companyLogic = new CompanyLogic();
 
         public IActionResult Add()
         {
@@ -25,13 +26,14 @@ namespace Rockstar.Controllers
         {
             var category = viewModel.Category;
             _reviewCategoryLogic.AddCategory(category);
-            return View();
+            return RedirectToAction("Add");
         }
 
         public IActionResult CategoriesOfCompany()
         {
             var viewModel = new CategoriesOfCompanyViewModel();
             viewModel.Categories = _reviewCategoryLogic.GetCategoriesSelectForCompany(); //Hiermee kan je dan met een checkbox de public bool Selected true maken
+            viewModel.Companies = _companyLogic.GetAllCompanies();
             return View(viewModel);
         }
 
@@ -41,7 +43,7 @@ namespace Rockstar.Controllers
             var companyId = viewModel.CompanyId; //Value= company.Id van een select met companies
             var categories = viewModel.Categories;
             _reviewCategoryLogic.AddSelectedCategoriesToCompany(categories, companyId);
-            return View();
+            return RedirectToAction("CategoriesOfCompany");
         }
     }
 }

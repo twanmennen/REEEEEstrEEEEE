@@ -27,8 +27,8 @@ namespace Data.Context
 
         public void RegisterCompany(Company company)
         {
-            string query = "INSERT INTO Company(Name, Email, Phonenumber, Location, Employees, Link, Info, Image)" +
-                           "VALUES(@Name, @Email, @Phone, @Location, @Link, @Info, @Image)";
+            string query = "INSERT INTO Company(Name, Password, Email, Phonenumber, Location, Info, Image)" +
+                           "VALUES(@Name, @Password, @Email, @Phone, @Location, @Info, @Image)";
 
             using (var conn = new SqlConnection(ConnectionString))
             {
@@ -36,12 +36,12 @@ namespace Data.Context
                 {
                     conn.Open();
                     cmd.Parameters.AddWithValue("@Name", company.Name);
+                    cmd.Parameters.AddWithValue("@Password", company.Password);
                     cmd.Parameters.AddWithValue("@Email", company.Email);
                     cmd.Parameters.AddWithValue("@Phone", company.TelephoneNr);
                     cmd.Parameters.AddWithValue("@Location", company.Location);
-                    cmd.Parameters.AddWithValue("@Link", company.Link);
                     cmd.Parameters.AddWithValue("@Info", company.Info);
-                    //cmd.Parameters.AddWithValue("@Image", company.Image.FileName);
+                    cmd.Parameters.AddWithValue("@Image", company.Image);
 
                     cmd.ExecuteNonQuery();
                 }

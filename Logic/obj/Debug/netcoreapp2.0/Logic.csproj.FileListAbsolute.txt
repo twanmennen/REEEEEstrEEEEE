@@ -52,3 +52,31 @@ D:\SEMESTER 2 HERSTART\RockstarV2.0\REEEEEstrEEEEE\Logic\obj\Debug\netcoreapp2.0
 D:\SEMESTER 2 HERSTART\RockstarV2.0\REEEEEstrEEEEE\Logic\obj\Debug\netcoreapp2.0\Logic.AssemblyInfo.cs
 D:\SEMESTER 2 HERSTART\RockstarV2.0\REEEEEstrEEEEE\Logic\obj\Debug\netcoreapp2.0\Logic.dll
 D:\SEMESTER 2 HERSTART\RockstarV2.0\REEEEEstrEEEEE\Logic\obj\Debug\netcoreapp2.0\Logic.pdb
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Logic\bin\Debug\netcoreapp2.0\Logic.deps.json
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Logic\bin\Debug\netcoreapp2.0\Logic.dll
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Logic\bin\Debug\netcoreapp2.0\Logic.pdb
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Logic\bin\Debug\netcoreapp2.0\Data.dll
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Logic\bin\Debug\netcoreapp2.0\Models.dll
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Logic\bin\Debug\netcoreapp2.0\Data.pdb
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Logic\bin\Debug\netcoreapp2.0\Models.pdb
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Logic\obj\Debug\netcoreapp2.0\Logic.csprojAssemblyReference.cache
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Logic\obj\Debug\netcoreapp2.0\Logic.csproj.CoreCompileInputs.cache
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Logic\obj\Debug\netcoreapp2.0\Logic.AssemblyInfoInputs.cache
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Logic\obj\Debug\netcoreapp2.0\Logic.AssemblyInfo.cs
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Logic\obj\Debug\netcoreapp2.0\Logic.csproj.CopyComplete
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Logic\obj\Debug\netcoreapp2.0\Logic.dll
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Logic\obj\Debug\netcoreapp2.0\Logic.pdb
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Logic\bin\Debug\netcoreapp2.0\Logic.deps.json
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Logic\bin\Debug\netcoreapp2.0\Logic.dll
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Logic\bin\Debug\netcoreapp2.0\Logic.pdb
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Logic\bin\Debug\netcoreapp2.0\Data.dll
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Logic\bin\Debug\netcoreapp2.0\Models.dll
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Logic\bin\Debug\netcoreapp2.0\Data.pdb
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Logic\bin\Debug\netcoreapp2.0\Models.pdb
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Logic\obj\Debug\netcoreapp2.0\Logic.csprojResolveAssemblyReference.cache
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Logic\obj\Debug\netcoreapp2.0\Logic.csproj.CoreCompileInputs.cache
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Logic\obj\Debug\netcoreapp2.0\Logic.AssemblyInfoInputs.cache
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Logic\obj\Debug\netcoreapp2.0\Logic.AssemblyInfo.cs
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Logic\obj\Debug\netcoreapp2.0\Logic.csproj.CopyComplete
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Logic\obj\Debug\netcoreapp2.0\Logic.dll
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Logic\obj\Debug\netcoreapp2.0\Logic.pdb

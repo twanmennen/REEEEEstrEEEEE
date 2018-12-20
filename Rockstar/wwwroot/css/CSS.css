@@ -1,0 +1,181 @@
+﻿.margin-top10 {
+    margin-top: 10px;
+}
+
+.margin-top-bottom10 {
+    margin: 10px 0;
+}
+
+.margin-top100 {
+    margin-top: 100px;
+}
+
+.margin-left75 {
+    margin-left: 75px;
+}
+
+.btn-rockstar {
+    background-color: #f8db01;
+    color: black;
+    border-color: #e4ca01;
+}
+
+.btn-rockstar:hover {
+    background-color: #fee94d !important;
+    color: black;
+    border-color: #fee94d;
+}
+
+.navtext-rockstar {
+    color: #f8db01 !important;
+}
+
+.navtext-rockstar:hover {
+    color:  #fef39a !important;
+}
+
+.navbar-image {
+    position: absolute;
+    height: 75px;
+    width: 75px;
+}
+
+.margin-left100 {
+    margin-left: 100px;
+}
+
+.color-rockstar {
+    color: #f8db01;
+}
+
+.image-round-50 {
+    border-radius: 50%;
+    border: 2px solid #f8db01;
+    height: 50px;
+}
+
+.float-left {
+    float: left;
+}
+
+.input-rockstar {
+    border: 2px solid #f8db01 !important;
+    background-color: #000000;
+    color: #f8db01;
+}
+
+/*Collapsible*/
+.collapsible {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .collapsible:hover {
+    background-color: black;
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: black;
+    color: #f8db01;
+}
+
+/*Rating*/
+.rating {
+    display: inline-block;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    font-size: 50px;
+}
+
+.rating label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    cursor: pointer;
+}
+
+.rating label:last-child {
+    position: static;
+}
+
+.rating label:nth-child(1) {
+    z-index: 5;
+}
+
+.rating label:nth-child(2) {
+    z-index: 4;
+}
+
+.rating label:nth-child(3) {
+    z-index: 3;
+}
+
+.rating label:nth-child(4) {
+    z-index: 2;
+}
+
+.rating label:nth-child(5) {
+    z-index: 1;
+}
+
+.rating label input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.rating label .icon {
+    float: left;
+    color: transparent;
+}
+
+.rating label:last-child .icon {
+    color: #333;
+}
+
+.rating:not(:hover) label input:checked ~ .icon,
+.rating:hover label:hover input ~ .icon {
+    color: #FFE000;
+}
+
+.rating label input:focus:not(:checked) ~ .icon:last-child {
+    color: #333;
+    text-shadow: 0 0 5px #FFE000;
+}
+
+.fontsize-36 {
+    font-size: 36px;
+}
+
+.invite-company-name {
+    font-size: 36px;
+    position: relative;
+}
+
+#login-box {
+    background: black;
+    border-radius: 5%;
+    padding: 10px 30px 100px 30px;
+}
+
+.display-block {
+    display: inline-block
+}
+
+.border-rockstar {
+    border: solid 2px #f8db01;
+}

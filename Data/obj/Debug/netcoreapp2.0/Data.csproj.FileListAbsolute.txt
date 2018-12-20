@@ -44,3 +44,27 @@ D:\SEMESTER 2 HERSTART\RockstarV2.0\REEEEEstrEEEEE\Data\obj\Debug\netcoreapp2.0\
 D:\SEMESTER 2 HERSTART\RockstarV2.0\REEEEEstrEEEEE\Data\obj\Debug\netcoreapp2.0\Data.AssemblyInfo.cs
 D:\SEMESTER 2 HERSTART\RockstarV2.0\REEEEEstrEEEEE\Data\obj\Debug\netcoreapp2.0\Data.dll
 D:\SEMESTER 2 HERSTART\RockstarV2.0\REEEEEstrEEEEE\Data\obj\Debug\netcoreapp2.0\Data.pdb
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Data\bin\Debug\netcoreapp2.0\Data.deps.json
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Data\bin\Debug\netcoreapp2.0\Data.dll
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Data\bin\Debug\netcoreapp2.0\Data.pdb
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Data\bin\Debug\netcoreapp2.0\Models.dll
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Data\bin\Debug\netcoreapp2.0\Models.pdb
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Data\obj\Debug\netcoreapp2.0\Data.csprojAssemblyReference.cache
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Data\obj\Debug\netcoreapp2.0\Data.csproj.CoreCompileInputs.cache
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Data\obj\Debug\netcoreapp2.0\Data.AssemblyInfoInputs.cache
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Data\obj\Debug\netcoreapp2.0\Data.AssemblyInfo.cs
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Data\obj\Debug\netcoreapp2.0\Data.csproj.CopyComplete
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Data\obj\Debug\netcoreapp2.0\Data.dll
+C:\Users\moham\OneDrive\Documenten\SEMESTER 2 HER\SOFTWARE\REEEEEstrEEEEE\Data\obj\Debug\netcoreapp2.0\Data.pdb
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Data\bin\Debug\netcoreapp2.0\Data.deps.json
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Data\bin\Debug\netcoreapp2.0\Data.dll
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Data\bin\Debug\netcoreapp2.0\Data.pdb
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Data\bin\Debug\netcoreapp2.0\Models.dll
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Data\bin\Debug\netcoreapp2.0\Models.pdb
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Data\obj\Debug\netcoreapp2.0\Data.csprojResolveAssemblyReference.cache
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Data\obj\Debug\netcoreapp2.0\Data.csproj.CoreCompileInputs.cache
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Data\obj\Debug\netcoreapp2.0\Data.AssemblyInfoInputs.cache
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Data\obj\Debug\netcoreapp2.0\Data.AssemblyInfo.cs
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Data\obj\Debug\netcoreapp2.0\Data.csproj.CopyComplete
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Data\obj\Debug\netcoreapp2.0\Data.dll
+D:\Users\Youri\Documents\Fontys\S22\REEEEEstrEEEEE\Data\obj\Debug\netcoreapp2.0\Data.pdb

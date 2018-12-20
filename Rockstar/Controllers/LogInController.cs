@@ -25,12 +25,12 @@ namespace Rockstar.Controllers
         [HttpPost]
         public IActionResult Index(LogInViewModel viewModel)
         {
-            if(viewModel.EMail != null && viewModel.PassWord != null)
+            if(viewModel.Email != null && viewModel.Password != null)
             {
-                bool[] logInArray = _logInLogic.LoginCheck(viewModel.EMail, viewModel.PassWord);
+                bool[] logInArray = _logInLogic.LoginCheck(viewModel.Email, viewModel.Password);
                 if (logInArray[0])
                 {
-                    Account account = _logInLogic.GetAccountByEMail(viewModel.EMail);
+                    Account account = _logInLogic.GetAccountByEMail(viewModel.Email);
                     LogUserIn(account);
                     if (logInArray[1])
                     {

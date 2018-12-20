@@ -1,2 +1,25 @@
 ﻿@model Rockstar.ViewModels.Category.AddCategoryViewModel
 
+
+<form method="post" enctype="multipart/form-data" asp-controller="ReviewCategory" asp-action="Add">
+    <div class="container">
+        <div class="inner-wrapper">
+            <div class="inner-inner-wrapper">
+
+                <div class="list-group">
+                    <div class="testen">
+                        <p>test</p>
+                        @foreach (var item in Model.Categories)
+                        {                           
+                            <li class="list-group-item" id="listCat"> @item.Name</li>
+                        }
+                    </div>
+
+                </div>
+
+                <input type="text" class="form-control" asp-for="@Model.Category.Name" />
+                <button class="navbar-btn btn btn-default" type="submit" id="regAddButton">Add</button>
+            </div>
+        </div>
+    </div>
+</form>

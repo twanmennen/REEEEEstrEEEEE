@@ -10,6 +10,7 @@ namespace Rockstar.Controllers
     {
         private AccountLogic _accountLogic = new AccountLogic();
         private CompanyLogic _companyLogic = new CompanyLogic();
+        private ShowReviewLogic _showReviewLogic = new ShowReviewLogic();
 
         public IActionResult GetUserProfile()
         {
@@ -38,14 +39,14 @@ namespace Rockstar.Controllers
             return View("ProfileUser",viewModel);
         }
 
-        public IActionResult GetCompanyProfile(int id)
+        public IActionResult CompanyProfile(int id)
         {
             CompanyProfileViewModel viewModel = new CompanyProfileViewModel();
 
             viewModel.Company = _companyLogic.GetCompanyById(id);
-            //viewModel.Reviews = _companyLogic.GetReviewsByCompany(id);
+            viewModel.Reviews = _showReviewLogic.GetReviewsByCompany(id);
 
-            return View("ProfileCompany", viewModel);
+            return View(viewModel);
         }
     }
 }

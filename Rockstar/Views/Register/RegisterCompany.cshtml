@@ -1,6 +1,48 @@
 ﻿@model Rockstar.ViewModels.Register.RegisterCompanyViewModel
 
 <form method="post" enctype="multipart/form-data">
-    <input type="file" asp-for="@Model.Image"/>
-    <button type="submit"></button>
+    <div class="inner-wrapper">
+        <label>Profielfoto:</label>
+        <input type="file" asp-for="Image" />
+        <div class="Info">
+            <div class="inputvelden">
+                <div class="form-group">
+                    <label>Naam</label>
+                    <input type="text" class="form-control" asp-for="Company.Name">
+                </div>
+                <div class="form-group">
+                    <label>Locatie</label>
+                    <input type="text" class="form-control"asp-for="Company.Location">
+                </div>
+                <div class="form-group">
+                    <label>email</label>
+                    <input type="text" class="form-control" asp-for="Company.Email">
+                </div>
+                <div class="form-group">
+                    <label>password</label>
+                    <input type="password" class="form-control" asp-for="Company.Password">
+                </div>
+                <div class="form-group">
+                    <label>phone</label>
+                    <input type="text" class="form-control" asp-for="Company.TelephoneNr">
+
+                </div>
+            </div>
+        </div>
+        <div class="maps-container">
+           
+        </div><br />
+
+        <div class="ingo">
+            <label>info</label>
+            <textarea rows="4" cols="50" class="form-control" asp-for="Company.Info">
+						Type something here
+					</textarea>
+        </div>
+        <button class="navbar-btn btn btn-default" type="submit" id="regAddButton">Add</button>
+    </div>
 </form>
+
+<div class="container">
+    
+</div>
