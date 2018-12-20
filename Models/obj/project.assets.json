@@ -1385,23 +1385,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\moham\\.nuget\\packages\\": {},
+    "C:\\Users\\twanm\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\moham\\OneDrive\\Documenten\\SEMESTER 2 HER\\SOFTWARE\\REEEEEstrEEEEE\\Models\\Models.csproj",
+      "projectUniqueName": "D:\\HBO ICT\\A S2 Poging 2\\Proftaak\\Code\\Rockstar\\TurboREEEEE\\REEEEEstrEEEEE\\Models\\Models.csproj",
       "projectName": "Models",
-      "projectPath": "C:\\Users\\moham\\OneDrive\\Documenten\\SEMESTER 2 HER\\SOFTWARE\\REEEEEstrEEEEE\\Models\\Models.csproj",
-      "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\moham\\OneDrive\\Documenten\\SEMESTER 2 HER\\SOFTWARE\\REEEEEstrEEEEE\\Models\\obj\\",
+      "projectPath": "D:\\HBO ICT\\A S2 Poging 2\\Proftaak\\Code\\Rockstar\\TurboREEEEE\\REEEEEstrEEEEE\\Models\\Models.csproj",
+      "packagesPath": "C:\\Users\\twanm\\.nuget\\packages\\",
+      "outputPath": "D:\\HBO ICT\\A S2 Poging 2\\Proftaak\\Code\\Rockstar\\TurboREEEEE\\REEEEEstrEEEEE\\Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\twanm\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
