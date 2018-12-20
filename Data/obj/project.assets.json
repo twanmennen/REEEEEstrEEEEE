@@ -1405,27 +1405,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Youri\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Users\\moham\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Youri\\Source\\Repos\\twanmennen\\REEEEEstrEEEEE\\Data\\Data.csproj",
+      "projectUniqueName": "C:\\Users\\moham\\OneDrive\\Documenten\\SEMESTER 2 HER\\SOFTWARE\\REEEEEstrEEEEE\\Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "C:\\Users\\Youri\\Source\\Repos\\twanmennen\\REEEEEstrEEEEE\\Data\\Data.csproj",
-      "packagesPath": "C:\\Users\\Youri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Youri\\Source\\Repos\\twanmennen\\REEEEEstrEEEEE\\Data\\obj\\",
+      "projectPath": "C:\\Users\\moham\\OneDrive\\Documenten\\SEMESTER 2 HER\\SOFTWARE\\REEEEEstrEEEEE\\Data\\Data.csproj",
+      "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\moham\\OneDrive\\Documenten\\SEMESTER 2 HER\\SOFTWARE\\REEEEEstrEEEEE\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Youri\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -1437,8 +1434,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\Youri\\Source\\Repos\\twanmennen\\REEEEEstrEEEEE\\Models\\Models.csproj": {
-              "projectPath": "C:\\Users\\Youri\\Source\\Repos\\twanmennen\\REEEEEstrEEEEE\\Models\\Models.csproj"
+            "C:\\Users\\moham\\OneDrive\\Documenten\\SEMESTER 2 HER\\SOFTWARE\\REEEEEstrEEEEE\\Models\\Models.csproj": {
+              "projectPath": "C:\\Users\\moham\\OneDrive\\Documenten\\SEMESTER 2 HER\\SOFTWARE\\REEEEEstrEEEEE\\Models\\Models.csproj"
             }
           }
         }
