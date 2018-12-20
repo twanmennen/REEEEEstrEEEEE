@@ -1392,11 +1392,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\Youri\\Documents\\Fontys\\S22\\REEEEEstrEEEEE\\Models\\Models.csproj",
+      "projectUniqueName": "C:\\Users\\Youri\\Source\\Repos\\twanmennen\\REEEEEstrEEEEE\\Models\\Models.csproj",
       "projectName": "Models",
-      "projectPath": "D:\\Users\\Youri\\Documents\\Fontys\\S22\\REEEEEstrEEEEE\\Models\\Models.csproj",
+      "projectPath": "C:\\Users\\Youri\\Source\\Repos\\twanmennen\\REEEEEstrEEEEE\\Models\\Models.csproj",
       "packagesPath": "C:\\Users\\Youri\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\Youri\\Documents\\Fontys\\S22\\REEEEEstrEEEEE\\Models\\obj\\",
+      "outputPath": "C:\\Users\\Youri\\Source\\Repos\\twanmennen\\REEEEEstrEEEEE\\Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
